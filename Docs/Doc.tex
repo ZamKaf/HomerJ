@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+%\usepackage[cp1251]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage{fancybox, fancyhdr} %работа с колонтикулами
+\textheight=24cm % высота текста
+\textwidth=16cm % ширина текста
+\oddsidemargin=0pt % отступ от левого края
+\topmargin=-1.5cm % отступ от верхнего края
+\parindent=24pt % абзацный отступ
+\parskip=0pt % интервал между абзацами
+\tolerance=2000 % терпимость к "жидким" строкам
+\flushbottom % выравнивание высоты страниц
+
+\fancyhead[R]{Программный комплекс «Homer J».Спецификация требований к программному обеспечению Дата: 06.04.2017 Версия: 0.5 }
+\fancyhead[L]{}
+\fancyhead[C]{}
+
+\begin{document}
+\pagestyle{fancy}
+
+	\input{Title.tex}
+	\input{Intro.tex}
+	\input{common_desc.tex}
+	\input{func_req.tex}
+	\input{out_int.tex}
+	\input{unfunc_req.tex}
+	\input{other.tex}
+
+\end{document}
